@@ -1,0 +1,7 @@
+--target=wasm32
+-nostdlib 
+-z stack-size=1024
+-O0
+-Wl,--no-entry
+-Wl,--export-all
+-Wl,--allow-undefined
